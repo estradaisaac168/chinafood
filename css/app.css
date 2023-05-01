@@ -1,0 +1,178 @@
+:root {
+    --primary: #8B0000;
+    --secondary: #ffd900df;
+    --gray: #3B3B3B;
+    --white: #FFFFFF;
+    --black: #1F1E1E;
+    --lightgray: #e1e1e1;
+
+    --gap: 5rem;
+
+    --primaryFont: 'Roboto', sans-serif;
+    --secondFont: 'Lato', sans-serif;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--primary) !important;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.navbar {
+    background-color: var(--secondary) !important;
+}
+
+/* .navbar-brand img {
+    width: 50px;
+} */
+
+/* @media (min-width: 992px) {
+    .navbar-brand img {
+        width: 90px;
+    }
+} */
+
+.navbar-brand {
+    font-size: 2rem;
+    margin-right: 0;
+    padding: 1rem;
+
+}
+
+/* @media (min-width: 992px) {
+    .navbar-brand {
+        padding: 0 1rem;
+
+    }
+} */
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    width: 3rem;
+}
+
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--white);
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+/* Seccion de header jumbotrom */
+
+.header p {
+    color: var(--secondary);
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+    margin: 0;
+}
+
+.jumbotrom-header .img {
+    background-image: url(../img/logo-header.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+@media (min-width: 768px) {
+    .jumbotrom-header .img {
+        height: 100vh;
+
+    }
+}
+
+/* main */
+
+.main .main-h1 {
+    color: var(--lightgray);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.main .card {
+    margin: calc(var(--gap) / 4);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.card .card-body {
+    color: var(--primary);
+    text-align: center;
+}
+
+.card .card-body a {
+    color: var(--primary);
+}
+
+.card .card-body h2 {
+    padding: 2rem 0;
+}
+
+.card .card-text {
+    margin: 0;
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+/* Card grid */
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 40px;
+    grid-column-gap: 10px;
+    grid-row-gap: 7px;
+    align-items: center;
+}
+
+.card .price {
+    justify-self: start;
+    align-self: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: var(--black);
+}
