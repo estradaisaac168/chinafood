@@ -106,7 +106,7 @@ a {
 
 .jumbotrom-header .img {
     background-image: url(../img/logo-header.jpg);
-    height: 80vh;
+    height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -115,7 +115,7 @@ a {
 
 @media (min-width: 768px) {
     .jumbotrom-header .img {
-        height: 100vh;
+        height: 80vh;
 
     }
 }
