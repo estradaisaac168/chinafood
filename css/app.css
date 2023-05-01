@@ -114,7 +114,7 @@ a {
 .jumbotrom-header .img {
     background-image: url(../img/logo-header.jpg);
     height: 60vh;
-    opacity: .80;
+    opacity: .75;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -192,7 +192,7 @@ a {
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 40px;
-    grid-column-gap: 10px;
+    grid-column-gap: 15px;
     grid-row-gap: 7px;
     align-items: center;
 }
