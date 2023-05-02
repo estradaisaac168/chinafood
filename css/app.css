@@ -22,17 +22,24 @@ body {
     position: relative;
     padding-bottom: 15rem;
     min-height: 100vh;
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: 900;
 }
+
 h1 {
     font-size: 4.4rem;
 }
+
 h2 {
     font-size: 3.6rem;
 }
+
 h3 {
     font-size: 2.8rem;
 }
@@ -149,7 +156,7 @@ a {
 }
 
 .card img {
-    height:auto;
+    height: auto;
 }
 
 /* @media (min-width: 756px) { 
@@ -194,79 +201,51 @@ a {
 }
 
 .card .card-text {
-    margin: 0 0 0 2rem;
+    margin-left: 2rem;
     text-align: start;
-    font-size: 1.5rem;
 }
 
-@media (min-width: 992px) { 
-    .card .card-text {
-        margin: 0 0 0 5rem;
-        font-size: 2rem;
-    }
-}
-
-@media (min-width: 1024px) { 
-    .card .card-text {
-        margin: 0 0 0 3rem;
-        font-size: 2.5rem;
-    }
-}
 
 /* Card grid */
 
 .card-grid {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 40px;
     grid-column-gap: 10px;
     grid-row-gap: 7px;
     align-items: center;
 }
 
-/* @media (min-width: 768px) { 
-    .card-grid{
+@media (min-width: 1024px) {
+    .card .price {
         grid-template-columns: 5fr 1fr;
-    }
-} */
 
+    }
+}
 
 .card .price {
     justify-self: start;
     align-self: center;
     font-weight: bold;
-    font-size: 1.5rem;
 }
-
-@media (min-width: 992px) { 
-    .card .price {
-        font-size: 2rem;
-    }
-}
-
-@media (min-width: 1024px) { 
-    .card .price {
-        font-size: 2.5rem;
-    }
-}
-
 
 /* About */
 
-.about p{
+.about p {
     text-align: justify;
     font-size: 2rem;
 }
 
 /* Contact */
 
-.contact{
+.contact {
     width: 400px;
     height: 300px;
 }
 
-@media (min-width: 768px) { 
-    .contact{
+@media (min-width: 768px) {
+    .contact {
         width: 1000px;
         height: 600px;
     }
@@ -281,10 +260,10 @@ a {
     background-color: var(--black);
 }
 
-.footer p{
+.footer p {
     padding: 5rem 0;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     font-size: 2rem
