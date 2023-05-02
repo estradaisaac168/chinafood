@@ -224,6 +224,27 @@ a {
 }
 
 
+/* About */
+
+.about p{
+    text-align: justify;
+    font-size: 2rem;
+}
+
+/* Contact */
+
+.contact{
+    width: 300px;
+    height: 300px;
+}
+
+@media (min-width: 768px) { 
+    .contact{
+        width: 600px;
+        height: 500px;
+    }
+}
+
 /* Footer */
 
 .footer {
