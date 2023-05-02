@@ -206,16 +206,16 @@ a {
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 40px;
-    grid-column-gap: 15px;
+    grid-column-gap: 10px;
     grid-row-gap: 7px;
     align-items: center;
 }
 
-@media (min-width: 768px) { 
+/* @media (min-width: 768px) { 
     .card-grid{
         grid-template-columns: 5fr 1fr;
     }
-}
+} */
 
 
 .card .price {
