@@ -234,14 +234,14 @@ a {
 /* Contact */
 
 .contact{
-    width: 300px;
+    width: 400px;
     height: 300px;
 }
 
 @media (min-width: 768px) { 
     .contact{
-        width: 600px;
-        height: 500px;
+        width: 800px;
+        height: 600px;
     }
 }
 
